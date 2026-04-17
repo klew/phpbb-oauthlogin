@@ -27,6 +27,7 @@
     "files": [
       "oauth/oauth2/service/DiscordExtend.php",
       "oauth/oauth2/service/GitHubExtend.php",
+      "oauth/oauth2/service/SuplaExtend.php",
       "oauth/oauth2/service/WordpressExtend.php"
     ]
   }

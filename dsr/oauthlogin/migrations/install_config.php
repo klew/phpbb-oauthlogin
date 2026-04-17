@@ -44,6 +44,10 @@ class install_config extends migration
             ['config.add', ['auth_oauth_reddit_key', '']],
             ['config.add', ['auth_oauth_reddit_secret', '']],
 
+            // supla
+            ['config.add', ['auth_oauth_supla_key', '']],
+            ['config.add', ['auth_oauth_supla_secret', '']],
+
             // wordpress
             ['config.add', ['auth_oauth_wordpress_key', '']],
             ['config.add', ['auth_oauth_wordpress_secret', '']],

@@ -80,3 +80,25 @@ Reddit only support **one** redirect. So we add only the main one.
 ```
 
 3. Copy and save the `Client ID` and `Client Secret`
+
+
+### SUPLA
+
+1. Create an OAuth2 application in SUPLA Cloud.
+
+2. Use the public cloud authorization and token endpoints:
+```
+    https://cloud.supla.org/oauth/v2/auth
+    https://cloud.supla.org/oauth/v2/token
+```
+
+3. Configure the redirect URI used by phpBB:
+```
+    https://www.example.com/board/ucp.php
+```
+
+4. Use at least the `account_r` scope so phpBB can fetch the current user profile.
+
+5. Copy and save the `Client ID` and `Client Secret`
+
+Note: SUPLA returns the target server host in the encoded suffix of the authorization code / access token. The extension and smoke test resolve the API base URL from that suffix automatically.

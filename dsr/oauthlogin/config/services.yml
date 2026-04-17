@@ -31,6 +31,14 @@ services:
     tags:
       - { name: auth.provider.oauth.service }
 
+  auth.provider.oauth.service.supla:
+    class: dsr\oauthlogin\auth\provider\oauth\service\supla
+    arguments:
+      - '@config'
+      - '@request'
+    tags:
+      - { name: auth.provider.oauth.service }
+
   auth.provider.oauth.service.wordpress:
     class: dsr\oauthlogin\auth\provider\oauth\service\wordpress
     arguments:

@@ -24,6 +24,7 @@ $lang = array_merge($lang, [
     'AUTH_PROVIDER_OAUTH_SERVICE_GITHUB' => 'GitHub',
     'AUTH_PROVIDER_OAUTH_SERVICE_MICROSOFT' => 'Microsoft',
     'AUTH_PROVIDER_OAUTH_SERVICE_REDDIT' => 'Reddit',
+    'AUTH_PROVIDER_OAUTH_SERVICE_SUPLA' => 'SUPLA',
     'AUTH_PROVIDER_OAUTH_SERVICE_WORDPRESS' => 'Wordpress',
     'LOGIN_LINK_ERROR_OAUTH_NO_ACCESS_TOKEN' => 'No ACCESS_TOKEN found for the selected service',
 ]);
